@@ -34,6 +34,11 @@ export default class SamplePlugin extends HyperionPlugin {
         console.log(content);
     }
 
+    initOnce() {
+        console.log('This method is called only once in the indexer master process');
+        super.initOnce();
+    }
+
     addRoutes(server: FastifyInstance): void {
     }
 }
