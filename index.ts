@@ -14,7 +14,7 @@ export default class SamplePlugin extends HyperionPlugin {
 
     registerStreamHandlers() {
         this.streamHandlers.push({
-            event: 'delta',
+            event: 'trace',
             handler: async streamEvent => {
                 const headers = streamEvent.properties.headers;
                 if (headers) {
