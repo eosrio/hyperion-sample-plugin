@@ -1,0 +1,28 @@
+{
+  "name": "hyperion-sample-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": "^16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eosrio/hyperion-sample-plugin.git"
+  },
+  "author": {
+    "name": "EOS Rio",
+    "url": "https://eosrio.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eosrio/hyperion-sample-plugin/issues"
+  },
+  "homepage": "https://github.com/eosrio/hyperion-sample-plugin#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
